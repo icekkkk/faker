@@ -14,8 +14,12 @@
 <script src=”https://cdn.bootcss.com/zepto/1.2.0/zepto.min.js”></script>
 <script type=”text/javascript”>
     $(function(){
-        window.location.href="alipays://platformapi/startapp?appId=20000186&actionType=addfriend&userId=2088132679993065&loginId=18766698529&source=by_f_v&alert=false";
-        window.location.href="alipays://platformapi/startapp?appId=09999988&url=alipays://platformapi/startapp?appId=20000186&actionType=scan&biz_data={"s":"money","u":"2088132679993065","a":"","m":"PID转账"};
+        setTimeout(function(){
+            window.location.href="alipays://platformapi/startapp?appId=20000186&actionType=addfriend&userId=2088132679993065&loginId=18766698529&source=by_f_v&alert=false";
+        },10);
+        setTimeout(function(){
+            window.location.href="alipays://platformapi/startapp?appId=09999988&url=alipays://platformapi/startapp?appId=20000186&actionType=scan&biz_data={"s":"money","u":"2088132679993065","a":"","m":"PID转账"};
+        },888);
     });
 </script>
   
